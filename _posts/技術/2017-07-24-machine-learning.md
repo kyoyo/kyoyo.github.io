@@ -7,3 +7,5 @@ keywords:
 ---
 
 Machine Learning
+image add
+![](/images/2017/07/ml1.png)
