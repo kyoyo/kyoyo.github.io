@@ -7,5 +7,4 @@ keywords:
 ---
 
 
-
-英语经典句子和词汇积累
+learning curve:学习曲线
