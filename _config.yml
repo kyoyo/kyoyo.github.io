@@ -1,1 +1,39 @@
-theme: minima
+permalink: /:year/:month/:day/:title.html
+paginate: 10
+markdown: kramdown
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+# 作者信息
+author: 
+  name: kyoyo
+  email: kyoyo@gmail.com
+  link: https://kyoyo.github.io/
+  github: http://github.com/kyoyo
+
+# 站点信息
+title: kyoyoの世界
+description: My personal blog
+url: https://kyoyo.github.io/
+rss_url: /pages/atom.xml
+
+# gavatar头像及Favicon
+gavatar: /public/img/avatar.jpg
+favicon: /public/img/avatar.jpg
+
+
+# 主题设置，自动激活某个标签
+active: 技术
+
+# 首页除了最新文章外显示分类
+cates:
+  - 思考
+
+# 中文本地化
+locals:
+  tags: 标签
+  about: 关于
+  newest: 最新文章
+  archive: 归档
