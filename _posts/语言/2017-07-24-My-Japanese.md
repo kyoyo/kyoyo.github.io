@@ -10,3 +10,7 @@ keywords:
 
 
 やむなく:无可奈何
+
+
+
+[日语美文](http://www.kekejp.com/listen/practical/meiwen/)
