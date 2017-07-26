@@ -139,7 +139,7 @@ mathjax安装
 
 
 
-body部分的格式请前往 [Markdown 语法说明 (简体中文版)] 学习。
+Markdown使用方法请参考[Markdown 语法手册]
 
 
 [https://github.com/username/]: https://github.com/username/
@@ -150,4 +150,4 @@ body部分的格式请前往 [Markdown 语法说明 (简体中文版)] 学习。
 [友言：一个专业的网站社交评论系统]:  http://www.uyan.cc/
 [https://stackedit.io/]:  https://stackedit.io/
 
-[Markdown 语法说明 (简体中文版)]:  http://wowubuntu.com/markdown/
+[Markdown 语法手册]:  http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C
