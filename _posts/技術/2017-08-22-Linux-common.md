@@ -2,7 +2,7 @@
 layout: post
 title: Linux常用
 category: 技术
-tags: Git
+tags: Linux
 keywords: 
 description: 
 ---
