@@ -12,13 +12,13 @@ description:
 ###基本命令
 
 ```
-安装
+#安装
 pip3 install -v django==1.10.7
 
-创建新工程
+#创建新工程
 django-admin.py startproject my_blog
 
-创建app
+#创建app
 python manage.py startapp article
 
 ```
