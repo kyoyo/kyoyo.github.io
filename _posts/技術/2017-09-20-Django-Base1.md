@@ -32,6 +32,7 @@ manage.py runserver
 
 #同步生成DB 仅在第一次用
 python manage.py migrate
+
 #之后编辑model后，都要执行这两个
 python manage.py makemigrations
 python manage.py migrate
@@ -39,6 +40,13 @@ python manage.py migrate
 #创建超级用户
 python manage.py createsuperuser
 
+#python交互环境变量设置
+import os
+import django
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MyBlog.settings")
+django.setup()
+
+#settings
 
 
 ```
@@ -47,11 +55,28 @@ python manage.py createsuperuser
 
 
 
-###基本命令
+### The view layer
 
 ```
+#urls lib
+from django.conf.urls import url,include
+
+#views lib
+from django.http import HttpResponse
+from django.views import generic
 
 
+#admin
+from django.contrib import admin
+admin.site.register(Article)
+
+
+
+#setting
+  #TEMPLATES
+  TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
+  #auth
+  AUTH_USER_MODEL='auth.User'
 
 ```
 
