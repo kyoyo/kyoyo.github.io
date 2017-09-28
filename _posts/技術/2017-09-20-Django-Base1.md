@@ -65,18 +65,41 @@ from django.conf.urls import url,include
 from django.http import HttpResponse
 from django.views import generic
 
+#paginator
+context = {
+                'paginator': paginator,
+                'page_obj': page,
+                'is_paginated': is_paginated,
+                'object_list': queryset
+}
+
 
 #admin
 from django.contrib import admin
 admin.site.register(Article)
 
 
+#tag
+from django import template
+from django.template.defaultfilters import stringfilter
+
+register = template.Library()
+
+@register.simple_tag
+@register.inclusion_tag('blog/tags/breadcrumb.html')
+
+@register.filter(is_safe=True)
+@stringfilter
+
 
 #setting
   #TEMPLATES
   TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
+
   #auth
   AUTH_USER_MODEL='auth.User'
 
+  # Static files (CSS, JavaScript, Images)
+  STATICFILES = os.path.join(BASE_DIR, 'static')
 ```
 
