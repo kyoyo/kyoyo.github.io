@@ -60,6 +60,17 @@ django.setup()
 ```
 #urls lib
 from django.conf.urls import url,include
+url(r'^$', views.IndexView.as_view(), name='index')
+
+#regrex
+(?P<year>\d+) group匹配
+
+* 匹配前一个字符0次或无限次
++ 匹配前一个字符1次或无限次
+? 匹配前一个字符0次或1次
+\d 数字[0-9]
+\s 空白字符
+\w 单词字符[A-Za-z0-9_]
 
 #views lib
 from django.http import HttpResponse
