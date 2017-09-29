@@ -70,6 +70,7 @@ url(r'^$', views.IndexView.as_view(), name='index')
 ? 匹配前一个字符0次或1次
 \d 数字[0-9]
 \s 空白字符
+\S 非空白字符
 \w 单词字符[A-Za-z0-9_]
 
 #views lib
