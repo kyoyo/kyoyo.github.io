@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-###开发环境准备
+###常用命令
 
 ```
 #安装sqlite3
