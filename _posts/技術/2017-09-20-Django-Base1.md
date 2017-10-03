@@ -46,15 +46,45 @@ django.setup()
 
 #settings
 
+## database sqlite3 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'MyBlog.db'),
+    }
+}
 
 ```
 
 
 The view layer
 ```
+#views lib
+from django.shortcuts import render
+from django.http import HttpResponse
+from django.views.generic.list import ListView
+from django.views.generic.detail import DetailView
+from django.conf import settings
+
 #urls lib
 from django.conf.urls import url,include
+
+#forms lib
+from django import forms
+from django.forms import ModelForm
+from django.contrib.auth.models import User
+from django.contrib.auth import get_user_model
+
+
+
+-ex
 url(r'^$', views.IndexView.as_view(), name='index')
+url(r'^page/(?P<page>\d+)$', views.IndexView.as_view(), name='index_page'),
+url(r'^article/(?P<year>\d+)/(?P<month>\d+)/(?P<day>\d+)/(?P<article_id>\d+).html$',
+        views.ArticleDetailView.as_view(),
+        name='detail'),
+url(r'^category/(?P<category_name>\S+).html$',views.CategoryDetailView.as_view(),name='category_detail'
+
 
 #regrex
 (?P<year>\d+) group匹配
@@ -67,9 +97,7 @@ url(r'^$', views.IndexView.as_view(), name='index')
 \S 非空白字符
 \w 单词字符[A-Za-z0-9_]
 
-#views lib
-from django.http import HttpResponse
-from django.views import generic
+
 
 #paginator
 context = {
@@ -78,12 +106,6 @@ context = {
                 'is_paginated': is_paginated,
                 'object_list': queryset
 }
-
-
-#admin
-from django.contrib import admin
-admin.site.register(Article)
-
 
 #tag
 from django import template
@@ -100,15 +122,38 @@ register = template.Library()
 
 
 #setting
-  #TEMPLATES
-  TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
+  # Static files (CSS, JavaScript, Images)
+  STATICFILES = os.path.join(BASE_DIR, 'static')
+  
+```
+
+The model layer
+```
+#lib
+from django.db import models
+from django.core.urlresolvers import reverse
+
 
   #auth
   AUTH_USER_MODEL='auth.User'
 
-  # Static files (CSS, JavaScript, Images)
-  STATICFILES = os.path.join(BASE_DIR, 'static')
 ```
+
+
+The template layer
+```
+  #TEMPLATES
+  TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
+
+```
+
+The admin layer
+```
+from django.contrib import admin
+admin.site.register(Article)
+
+```
+
 
 ERRORS 
 ```
