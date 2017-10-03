@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-###开发环境准备
+开发环境准备
 
 ```
 #安装python
@@ -52,11 +52,7 @@ django.setup()
 ```
 
 
-
-
-
-### The view layer
-
+The view layer
 ```
 #urls lib
 from django.conf.urls import url,include
@@ -116,11 +112,13 @@ register = template.Library()
   STATICFILES = os.path.join(BASE_DIR, 'static')
 ```
 
-#errors 
-
+errors 
+'''
+#error1
 error:Add or change a related_name argument to the definition for 'BlogUser.groups' or 'User.groups'.
 solution:AUTH_USER_MODEL='accounts.BlogUser'
 
+#error2
 error:django makemigrations no changes detected
 solution:python manage.py makemigrations --empty yourappname 生成一个空的initial.py
-
+'''
