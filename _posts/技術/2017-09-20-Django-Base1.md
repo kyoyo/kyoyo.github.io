@@ -137,17 +137,16 @@ register = template.Library()
 from django.db import models
 from django.core.urlresolvers import reverse
 
-
-  #auth
-  AUTH_USER_MODEL='auth.User'
+#auth
+AUTH_USER_MODEL='auth.User'
 
 ```
 
 
 # The template layer
 ```
-  #TEMPLATES
-  TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
+#TEMPLATES
+TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
 
 ```
 
