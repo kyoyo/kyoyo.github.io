@@ -113,7 +113,7 @@ register = template.Library()
 ```
 
 ERRORS 
-'''
+```
 #error1
 error:Add or change a related_name argument to the definition for 'BlogUser.groups' or 'User.groups'.
 solution:AUTH_USER_MODEL='accounts.BlogUser'
@@ -121,4 +121,4 @@ solution:AUTH_USER_MODEL='accounts.BlogUser'
 #error2
 error:django makemigrations no changes detected
 solution:python manage.py makemigrations --empty yourappname 生成一个空的initial.py
-'''
+```
