@@ -112,7 +112,7 @@ register = template.Library()
   STATICFILES = os.path.join(BASE_DIR, 'static')
 ```
 
-errors 
+ERRORS 
 '''
 #error1
 error:Add or change a related_name argument to the definition for 'BlogUser.groups' or 'User.groups'.
