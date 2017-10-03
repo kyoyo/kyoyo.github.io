@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-开发环境准备
+# 开发环境准备
 
 ```
 #安装django
@@ -54,10 +54,15 @@ DATABASES = {
     }
 }
 
+## Static files (CSS, JavaScript, Images)
+  STATICFILES = os.path.join(BASE_DIR, 'static')
+
 ```
 
 
-The view layer
+# The view layer
+
+## libs
 ```
 #views lib
 from django.shortcuts import render
@@ -74,17 +79,16 @@ from django import forms
 from django.forms import ModelForm
 from django.contrib.auth.models import User
 from django.contrib.auth import get_user_model
-
-
-
--ex
+```
+#urls
+```
+#eg.
 url(r'^$', views.IndexView.as_view(), name='index')
 url(r'^page/(?P<page>\d+)$', views.IndexView.as_view(), name='index_page'),
 url(r'^article/(?P<year>\d+)/(?P<month>\d+)/(?P<day>\d+)/(?P<article_id>\d+).html$',
         views.ArticleDetailView.as_view(),
         name='detail'),
 url(r'^category/(?P<category_name>\S+).html$',views.CategoryDetailView.as_view(),name='category_detail'
-
 
 #regrex
 (?P<year>\d+) group匹配
@@ -98,14 +102,19 @@ url(r'^category/(?P<category_name>\S+).html$',views.CategoryDetailView.as_view()
 \w 单词字符[A-Za-z0-9_]
 
 
-
-#paginator
+```
+## paginator
+```
+url(r'^page/(?P<page>\d+)$', views.IndexView.as_view(), name='index_page'),
 context = {
                 'paginator': paginator,
                 'page_obj': page,
                 'is_paginated': is_paginated,
                 'object_list': queryset
 }
+```
+## tags
+```
 
 #tag
 from django import template
@@ -119,15 +128,10 @@ register = template.Library()
 
 @register.filter(is_safe=True)
 @stringfilter
-
-
-#setting
-  # Static files (CSS, JavaScript, Images)
-  STATICFILES = os.path.join(BASE_DIR, 'static')
   
 ```
 
-The model layer
+# The model layer
 ```
 #lib
 from django.db import models
@@ -140,14 +144,14 @@ from django.core.urlresolvers import reverse
 ```
 
 
-The template layer
+# The template layer
 ```
   #TEMPLATES
   TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
 
 ```
 
-The admin layer
+# The admin layer
 ```
 from django.contrib import admin
 admin.site.register(Article)
@@ -155,7 +159,7 @@ admin.site.register(Article)
 ```
 
 
-ERRORS 
+# ERRORS 
 ```
 #error1
 error:Add or change a related_name argument to the definition for 'BlogUser.groups' or 'User.groups'.
