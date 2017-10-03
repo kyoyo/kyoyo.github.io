@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-Intellij IDEA 快捷键
+# Intellij IDEA 快捷键
 ```
 【常规】
 Ctrl+Shift + Enter，语句完成
