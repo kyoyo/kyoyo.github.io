@@ -8,7 +8,7 @@ description:
 ---
 
 Intellij IDEA 快捷键
-'''
+```
 【常规】
 Ctrl+Shift + Enter，语句完成
 “！”，否定完成，输入表达式时按 “！”键
@@ -148,4 +148,4 @@ Alt+~，VCS 操作菜单
 Ctrl+K，提交更改
 Ctrl+T，更新项目
 Ctrl+Alt+Shift+D，显示变化
-'''
+```
