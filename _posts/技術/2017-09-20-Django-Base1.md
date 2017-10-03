@@ -10,8 +10,6 @@ description:
 开发环境准备
 
 ```
-#安装python
-
 #安装django
 pip3 install -v django==1.10.7
 
