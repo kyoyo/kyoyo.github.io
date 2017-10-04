@@ -4,7 +4,7 @@ title: Git常用命令速查表
 category: 技术
 tags: Git
 keywords: 
-description: 
+description: Git常用命令速查表
 ---
 
 master: 默认开发分支
