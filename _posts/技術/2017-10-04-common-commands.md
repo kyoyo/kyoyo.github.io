@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 常用COMMAND
+title: 常用命令
 category: 技术
 tags: commands
 keywords: 
