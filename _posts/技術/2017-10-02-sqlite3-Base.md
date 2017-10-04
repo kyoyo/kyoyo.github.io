@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-###常用命令
+# 常用命令
 
 ```
 #安装sqlite3
