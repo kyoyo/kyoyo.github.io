@@ -38,6 +38,63 @@ Command+Control+Shift+4       对部分屏幕截图 保存到文件
 ```
 
 # Intellij IDEA 快捷键
+
+## 精简版
+```
+Ctrl+E  最近的文件
+Ctrl+Shift+E  最近更改的文件
+Shift+Click  可以关闭文件
+Ctrl+F12  可以显示当前文件的结构
+Ctrl+F7  可以查询当前元素在当前文件中的引用  然后按 F3 可以选择
+Ctrl+N  可以快速打开类
+** Ctrl+Shift+N  可以快速打开文件 **
+Alt+Q  可以看到当前方法的声明
+Ctrl+P  可以显示参数信息
+Ctrl+Alt+L  格式化代码
+Ctrl+R  替换文本
+Ctrl+F  查找文本
+Ctrl+Shift+Space  自动补全代码
+Ctrl+H  显示类结构图（类的继承层次）
+Ctrl+Q  显示注释文档
+Alt+F1  查找代码所在位置
+Alt+1  快速打开或隐藏工程面板
+Ctrl+X  删除行
+Ctrl+D  复制行
+Ctrl+空格  代码提示（与系统输入法快捷键冲突）
+Ctrl+Shift+Alt+N  查找类中的方法或变量
+Alt+Shift+C  最近的更改
+Ctrl+Alt+Space  类名自动完成
+Ctrl+Shift+U  大小写转化
+Ctrl+Y  删除当前行
+Alt+F7  查找整个工程中使用地某一个类、方法或者变量的位置
+Ctrl+Shift+S  高级搜索
+Ctrl+U  转到父类
+Ctrl+Alt+S  打开设置对话框
+Ctrl+Shift+F  全局查找
+Ctrl+G  定位行
+Ctrl+Enter  上插一行
+Ctrl+Backspace  按单词删除
+Ctrl+Alt+B  跳转到方法实现处
+
+#调试部分、编译
+F8  步过
+F7  步入
+Shift+F7  智能步入
+Shift+F8  步出
+Alt+Shift+F8  强制步过
+Alt+Shift+F7  强制步入
+Alt+F10  定位到断点
+Ctrl+F8  切换行断点
+
+#查找
+Ctrl+Shift+C  复制路径
+Ctrl+F4  关闭
+Ctrl+Shift+F4  关闭活动选项卡
+Ctrl+Shift+S  搜索结构
+
+```
+
+## 常规版
 ```
 #常规
 Ctrl+Shift + Enter  语句完成
