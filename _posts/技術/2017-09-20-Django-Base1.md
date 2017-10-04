@@ -151,6 +151,20 @@ AUTH_USER_MODEL='auth.User'
 #TEMPLATES
 TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
 
+#forms
+ManyToManyField Django 创建一个中间表来表示ManyToManyField关系。默认情况下，中间表的名称由两个关系表名结合而成。
+
+new_blog=form.save(commit=False) 
+new_blog.author=current_user 
+
+##保存时，有两种方式
+1.先通过new_blog.save() 保存blog数据，再通过form.save_m2m() manytomany关系到中间表
+new_blog.save() 
+form.save_m2m() 
+2.此方法保存blog数据和保存manytomany关系到中间表
+form.save()
+
+            
 ```
 
 ## The admin layer
