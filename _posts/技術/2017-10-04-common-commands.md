@@ -10,9 +10,48 @@ description:
 # Linux 常用命令
 
 ```
+#环境变量表示
+printenv
 
+#查看用户和组
+/etc/group
+
+#系统存在的所有用户名
+/etc/shadow
+
+#系统存在的所有用户密码
+/etc/passwd
+
+#检索
+find ./ -name 'strinfo'
+egrep 'strinfo' filename.log
+
+- 检索指定文件含有指定字符串的行
+grep -n "hello" test3
+- 检索含有指定字符串的文件，并搜索子目录
+grep -rn "hello" * 
+- 指定多个字符串
+grep -n 'hello \| you' * 
+
+-检索文件
+find ./ -name 'filename.log' -type f 
+
+#cron
+crontab -e
+
+#更新内容自動表示
+tail -f filename
+
+#文件树结构
+tree opt -L 2
+
+#列出匹配的文件夹
+ls -d log*
 
 ```
+
+
+
 
 # sqlite3 常用命令
 ```
