@@ -128,7 +128,10 @@ register = template.Library()
 
 @register.filter(is_safe=True)
 @stringfilter
-  
+
+#将函数处理的结果赋值给一个变量
+@register.assignment_tag
+
 ```
 
 ## The model layer
@@ -167,4 +170,12 @@ solution:AUTH_USER_MODEL='accounts.BlogUser'
 #error2
 error:django makemigrations no changes detected
 solution:python manage.py makemigrations --empty yourappname 生成一个空的initial.py
+```
+#error3
+error:Site matching query does not exist
+solution:
+```
+from django.contrib.sites.models import Site
+new_site = Site.objects.create(domain='foo.com', name='foo.com')
+print new_site.id
 ```
