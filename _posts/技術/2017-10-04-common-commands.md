@@ -8,7 +8,6 @@ description:
 ---
 
 # Linux 常用命令
-
 ```
 #环境变量表示
 printenv
