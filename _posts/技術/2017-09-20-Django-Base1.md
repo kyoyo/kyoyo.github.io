@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-# 开发环境准备
+## 开发环境准备
 
 ```
 #安装django
@@ -60,9 +60,9 @@ DATABASES = {
 ```
 
 
-# The view layer
+## The view layer
 
-## libs
+### libs
 ```
 #views lib
 from django.shortcuts import render
@@ -80,7 +80,7 @@ from django.forms import ModelForm
 from django.contrib.auth.models import User
 from django.contrib.auth import get_user_model
 ```
-## urls
+### urls
 ```
 #eg.
 url(r'^$', views.IndexView.as_view(), name='index')
@@ -103,7 +103,7 @@ url(r'^category/(?P<category_name>\S+).html$',views.CategoryDetailView.as_view()
 
 
 ```
-## paginator
+### paginator
 ```
 url(r'^page/(?P<page>\d+)$', views.IndexView.as_view(), name='index_page'),
 context = {
@@ -113,7 +113,7 @@ context = {
                 'object_list': queryset
 }
 ```
-## tags
+### tags
 ```
 
 #tag
@@ -131,7 +131,7 @@ register = template.Library()
   
 ```
 
-# The model layer
+## The model layer
 ```
 #lib
 from django.db import models
@@ -143,14 +143,14 @@ AUTH_USER_MODEL='auth.User'
 ```
 
 
-# The template layer
+## The template layer
 ```
 #TEMPLATES
 TEMPLATES 'DIRS': [os.path.join(BASE_DIR, 'templates')]
 
 ```
 
-# The admin layer
+## The admin layer
 ```
 from django.contrib import admin
 admin.site.register(Article)
@@ -158,7 +158,7 @@ admin.site.register(Article)
 ```
 
 
-# ERRORS 
+## ERRORS 
 ```
 #error1
 error:Add or change a related_name argument to the definition for 'BlogUser.groups' or 'User.groups'.
