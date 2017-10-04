@@ -7,7 +7,7 @@ keywords:
 description: 
 ---
 
-# Linux 常用命令
+## Linux 常用命令
 ```
 #环境变量表示
 printenv
@@ -52,7 +52,7 @@ ls -d log*
 
 
 
-# sqlite3 常用命令
+## sqlite3 常用命令
 ```
 #安装sqlite3
 
