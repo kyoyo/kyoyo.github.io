@@ -19,6 +19,25 @@ virtualenv django-env
 #激活virtualenv
 .\django-env\Scripts\activate.bat
 
+#virtualenvwrapper神器
+#######
+#virtualenv 的一个最大的缺点就是，每次开启虚拟环境之前要去虚拟环境所在目录下的 bin 
+#目录下 source 一下 activate，这就需要我们记住每个虚拟环境所在的目录。一种可行的解决方案是，将所有的虚拟环境目录全都集中起来，
+#比如放到 ~/virtualenvs/，并对不同的虚拟环境使用不同的目录来管理。virtualenvwrapper 正是这样做的。并且，它还省去了每次
+#开启虚拟环境时候的 source 操作，使得虚拟环境更加好用。
+#安装
+#export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+#pip install virtualenvwrapper
+#环境设定
+#export WORKON_HOME='~/.virtualenvs'
+#source /usr/local/bin/virtualenvwrapper.sh
+#######
+mkvirtualenv spider
+workon spider
+deactivate
+rmvirtualenv spider
+
+
 #创建新工程
 django-admin.py startproject MyBlog
 
