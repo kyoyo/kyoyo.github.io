@@ -32,8 +32,16 @@ virtualenv django-env
 #export WORKON_HOME='~/.virtualenvs'
 #source /usr/local/bin/virtualenvwrapper.sh
 #######
+
+#Create a new virtualenv in the WORKON_HOME directory
 mkvirtualenv spider
+#List all of the environments
+lsvirtualenv
+#show the content of the site-packages directory of the currently-active virtualenv.
+lssitepackages
+#List or change working virtual environments
 workon spider
+
 deactivate
 rmvirtualenv spider
 
