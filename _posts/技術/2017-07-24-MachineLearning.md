@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Machine Learning base
+title: Machine Learning
 category: 技术
-tags: ML
+tags: Machine Learning
 keywords:
 ---
 
