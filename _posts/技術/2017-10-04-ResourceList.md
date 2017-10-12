@@ -1,8 +1,8 @@
 ---
 layout: post
-title: 资源信息一览
+title: Resource List
 category: 技术
-tags: resource list
+tags: Resource List
 keywords: 
 description: 
 ---
