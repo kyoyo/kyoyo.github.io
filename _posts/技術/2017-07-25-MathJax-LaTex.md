@@ -2,7 +2,7 @@
 layout: post
 title:  MathJax使用LaTeX语法编写数学公式教程
 category: 技术
-tags: jekyll
+tags: LaTex
 keywords:
 ---
 
