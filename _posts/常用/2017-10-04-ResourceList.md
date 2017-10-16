@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Resource List
-category: 技术
+category: 常用
 tags: Resource List
 keywords: 
 description: 
