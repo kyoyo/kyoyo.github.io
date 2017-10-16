@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 常用命令
-category: 技术
+category: 常用
 tags: commands
 keywords: 
 description: 
