@@ -47,6 +47,11 @@ tree opt -L 2
 #列出匹配的文件夹
 ls -d log*
 
+#查看shell种类
+cat /etc/shells
+
+#查看默认shell
+echo $SHELL
 ```
 
 
