@@ -67,6 +67,7 @@ http://blog.sina.com.cn/s/blog_4e60b09d0102vcso.html
 
 ## 指定搜索方式
 
+http://robbiefeng.iteye.com/blog/2169967
  
 - octocat in:file
     Matches code where "octocat" appears in the file contents.
