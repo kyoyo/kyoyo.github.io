@@ -23,6 +23,10 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
 知乎讨论Hexo
 https://www.zhihu.com/question/24422335
 
+
+# 国内外代码托管品台
+
+http://www.jianshu.com/p/bd24f3202011
 # Github
 很多人搜索github，但是芸芸众生，要找到自己想要的项目犹如海底捞针一般，今天教大家几项神技，可以快速找到自己想要的内容。
 
