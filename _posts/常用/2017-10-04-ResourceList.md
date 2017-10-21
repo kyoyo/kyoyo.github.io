@@ -23,6 +23,8 @@ Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（�
 知乎讨论Hexo
 https://www.zhihu.com/question/24422335
 
+# 网上商城数据表
+http://www.wstmart.net/database-952.html
 
 # 国内外代码托管品台
 
