@@ -77,15 +77,15 @@ http://robbiefeng.iteye.com/blog/2169967
  
 - octocat in:file
    
-搜索文件中有octocat的代码
+ 搜索文件中有octocat的代码
     
 - octocat in:path
     
-搜索路径中有octocat的代码
+ 搜索路径中有octocat的代码
     
 - octocat in:file,path
     
-搜索路径中有octocat的代码或者文件中有octocat的代码
+ 搜索路径中有octocat的代码或者文件中有octocat的代码
     
 - display language:scss
     
