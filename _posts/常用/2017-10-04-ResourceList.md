@@ -15,6 +15,9 @@ http://nanno.dip.jp/softlib/man/rlogin/
 A5:SQL MK-2 好用的开源数据库工具
 http://forest.watch.impress.co.jp/library/software/a5sqlmk2/
 
+# Django 博客系统教程
+http://cdn2.jianshu.io/p/a822b479106a
+
 # javascript网站
 https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
 
