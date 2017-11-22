@@ -123,6 +123,7 @@ $ git push --tags                       #上传所有标签
 
 ### 资料链接
 1. [Try Git](https://try.github.io/levels/1/challenges/1)
+
 2.[git回滚操作](https://github.com/geeeeeeeeek/git-recipes/wiki/5.2-%E4%BB%A3%E7%A0%81%E5%9B%9E%E6%BB%9A%EF%BC%9AReset%E3%80%81Checkout%E3%80%81Revert-%E7%9A%84%E9%80%89%E6%8B%A9)
 
 
