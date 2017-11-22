@@ -34,6 +34,39 @@ $ git rm<file>      #删除文件
 $ git rm --cached<file>            #停止跟踪文件但不删除
 $ git commit -m "commit messages"  #提交所有更新过的文件
 $ git commit --amend               #修改最后一次改动
+git checkout -- filename  #废弃工作区的修改
+git log -p master.. origin/master #比较本地的仓库和远程参考的区别
+git merge origin/master #把远程下载下来的代码合并到本地仓库
+
+从远程获取最新版本到本地
+git fetch origin master:temp
+git diff temp
+git merge temp
+git branch -d temp
+
+
+# 显示暂存区和工作区的差异
+$ git diff
+
+# 显示暂存区和上一个commit的差异
+$ git diff --cached [file]
+
+# 显示工作区与当前分支最新commit之间的差异
+$ git diff HEAD
+
+# 显示两次提交之间的差异
+$ git diff [first-branch]...[second-branch]
+
+# 显示今天你写了多少行代码
+$ git diff --shortstat "@{0 day ago}"
+```
+
+### git diff 详细
+```
+git diff --stat 63bb695..cfb604d #比较两个版本  stat 内容统计
+git diff --stat master  origin/master #比较本地master和远程master
+git diff HEAD -- ./lib
+
 ```
 
 ### 查看提交历史
