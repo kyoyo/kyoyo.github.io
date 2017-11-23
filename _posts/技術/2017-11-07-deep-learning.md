@@ -22,10 +22,16 @@ https://hjtso.github.io/2017/09/16/zh-Deep-learning%E7%AC%94%E8%AE%B02-CNN%E5%8D
 2. 下载cuda8.0  
 
   目前官方网站只显示cuda9.0,通过此链接下载[cuda8.0](https://developer.nvidia.com/cuda-80-ga2-download-archive)
-    
+  cmd窗口 nvcc -V   有结果表示安装成功
+  
 3. 下载并安装 [miniconda](https://conda.io/miniconda.html)
 
+4. 安装 mxnet-cu80
 
+  先卸载 cpu版mxnet   pip uninstall mxnet
+  再安装 mxnet-cu80   pip install --pre mxnet-cu80
+  
+  
 
 
 
