@@ -32,6 +32,8 @@ https://hjtso.github.io/2017/09/16/zh-Deep-learning%E7%AC%94%E8%AE%B02-CNN%E5%8D
   再安装 mxnet-cu80   pip install --pre mxnet-cu80
   
   
+[为你的深度学习任务挑选性价比最高GPU](https://www.jiqizhixin.com/articles/2016-07-18-4)
+  
 
 
 
