@@ -80,11 +80,11 @@ $ git blame <file>           #以列表方式查看指定文件的提交历史
 ### 撤销
 
 ```
-$ git reset --hard HEAD      #撤销工作目录中所有未提交文件的修改内容 ** 可以撤销新建文件 **
+$ git reset --hard HEAD      #撤销工作目录中所有未提交文件的修改内容 可以撤销新建文件
 $ git checkout HEAD <file>   #撤销指定的未提交文件的修改内容
 $ git revert <commit>        #撤销指定的提交
 $ git log --before="1 days"  #退回到之前1天的版本 
-$ git checkout -- <file>     #撤销本地修改 --之后需要加空格  ** 只能已文件修改，新建文件的删除无法做到 **
+$ git checkout -- <file>     #撤销本地修改 --之后需要加空格  只能已文件修改，新建文件的删除无法做到
 
 ```
 
