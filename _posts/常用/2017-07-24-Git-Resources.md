@@ -48,7 +48,7 @@ git branch -d temp
 # 显示暂存区和工作区的差异
 $ git diff
 
-# 显示暂存区和上一个commit的差异
+# 显示暂存区和上一个commit的差异  当前和 git add 后的文件之间的差异
 $ git diff --cached [file]
 
 # 显示工作区与当前分支最新commit之间的差异
@@ -64,7 +64,7 @@ $ git diff --shortstat "@{0 day ago}"
 ### git diff 详细
 ```
 git diff --stat 63bb695..cfb604d #比较两个版本  stat 内容统计
-git diff --stat master  origin/master #比较本地master和远程master
+git diff --stat master  origin/master #比较本地master和远程master 在git pull 后 origin/master信息拉取到本地后才能做
 git diff HEAD -- ./lib
 
 ```
@@ -80,10 +80,12 @@ $ git blame <file>           #以列表方式查看指定文件的提交历史
 ### 撤销
 
 ```
-$ git reset --hard HEAD      #撤销工作目录中所有未提交文件的修改内容
+$ git reset --hard HEAD      #撤销工作目录中所有未提交文件的修改内容 ** 可以撤销新建文件 **
 $ git checkout HEAD <file>   #撤销指定的未提交文件的修改内容
 $ git revert <commit>        #撤销指定的提交
 $ git log --before="1 days"  #退回到之前1天的版本 
+$ git checkout -- <file>     #撤销本地修改 --之后需要加空格  ** 只能已文件修改，新建文件的删除无法做到 **
+
 ```
 
 ### 分支与标签
