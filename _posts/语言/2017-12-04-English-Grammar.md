@@ -36,8 +36,6 @@ description:
   
 ## 不定动词当形容词
 
-`I have something to do`
-
 - 可以等于关系代名词做主语所引导的形容词子句
   `I have no friend to advise me`  = `I have no friend who can advise me`
   
@@ -60,24 +58,23 @@ description:
 
 - be动词之后形容词不定式有下列意义
 
+  - 表未来
 
-表未来
-   
-`He is to come tomorrow` = `He is going to come tomorrow`
-    
-表义务
-    
-`You are to do it` = `You should do it`
-    
-`What am I to do?` = `What should I do?` 我该怎么办？
- 
-表当然(=should)
-    
-`Such a lazy man is to be fired` = `Such a lazy man should be fired`
+  `He is to come tomorrow` = `He is going to come tomorrow`
 
-表可能(=can)
-    
-`My hat was nowhere to be found` = `My hat could not be found anywhere`
+  - 表义务
+
+  `You are to do it` = `You should do it`
+
+  `What am I to do?` = `What should I do?` 我该怎么办？
+
+  - 表当然(=should)
+
+  `Such a lazy man is to be fired` = `Such a lazy man should be fired`
+
+  - 表可能(=can)
+
+  `My hat was nowhere to be found` = `My hat could not be found anywhere`
 
 ## 不定动词当副词用
 
