@@ -30,10 +30,35 @@ description:
   `I want to see him`
   `He intends to try it`
 
-    
+  该及物动词均为表意愿，企图动词。常用有下列几个
+  `want wish hope desire intend try determin decide attempt endeavor like love expect`
+  
+  
 ## 不定动词当形容词
 
 `I have something to do`
+
+- 可以等于关系代名词做主语所引导的形容词子句
+  `I have no friend to advise me`  = `I have no friend who can advise me`
+  
+  `There is one thing to be done`  = `There is one thing which should be done`
+  
+- 可以等于关系代名词作受词引导的形容词子句
+  `I want something to eat ` = `I want something which I can eat`
+  
+  `I have something to do ` = `I have something which I must do`
+  
+  `There are many sights to see here` = `There are many sights which we can see here `
+  
+  `I have no one to talk to` = `I have no one whom I can talk to`
+- be动词之后可视为名词不定式或形容词不定式
+  `His plan is to build a house here`
+  
+  `He is to build a house here`
+
+- be动词之后形容词不定式有下列意义
+  - 表未来
+    
 
 ## 不定动词当副词用
 
