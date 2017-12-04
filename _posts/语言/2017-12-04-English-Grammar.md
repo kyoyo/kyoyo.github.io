@@ -59,8 +59,6 @@ description:
   `He is to build a house here`
 
 - be动词之后形容词不定式有下列意义
-
-
   1. 表未来
     `He is to come tomorrow` = `He is going to come tomorrow`
     
