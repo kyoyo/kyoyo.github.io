@@ -14,7 +14,7 @@ description:
 ## 不定动词当名词
 
 
-To take a trip around the world
+`To take a trip around the world`
 
 1.名词不定式作主语
 
