@@ -10,7 +10,8 @@ description:
 
 # 不定动词
 
-a. 不定动词当名词
+
+## 不定动词当名词
 
 
 >To take a trip around the world
@@ -24,17 +25,17 @@ a. 不定动词当名词
 >也可换成  It is my goal to marry her
 
   
-2.名词不定式作及物动词受词
+  2.名词不定式作及物动词受词
 
 >I want to see him
 >He intends to try it
 
     
-b. 不定动词当形容词
+## 不定动词当形容词
 
 >I have something to do
 
-c. 不定动词当副词用
+## 不定动词当副词用
 
 >I came to see her
 
