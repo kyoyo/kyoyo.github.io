@@ -15,7 +15,7 @@ description:
 
 `To take a trip around the world`
 
-### 名词不定式作主语
+- 名词不定式作主语
 
 `To marry her is my goal`
 
@@ -24,7 +24,7 @@ description:
  也可换成  `It is my goal to marry her`
 
   
-### 名词不定式作及物动词受词
+- 名词不定式作及物动词受词
 
 `I want to see him`
 `He intends to try it`
