@@ -17,11 +17,11 @@ description:
 
 - 名词不定式作主语
 
-`To marry her is my goal`
++ `To marry her is my goal`
 
-`plan purpse attempt goal aim ambition dream ideal wish hope`
++ `plan purpse attempt goal aim ambition dream ideal wish hope`
 
- 也可换成  `It is my goal to marry her`
++  也可换成  `It is my goal to marry her`
 
   
 - 名词不定式作及物动词受词
