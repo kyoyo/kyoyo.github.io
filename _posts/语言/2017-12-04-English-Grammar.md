@@ -60,6 +60,7 @@ description:
 
 - be动词之后形容词不定式有下列意义
 
+
 表未来
    
 `He is to come tomorrow` = `He is going to come tomorrow`
