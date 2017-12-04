@@ -11,12 +11,12 @@ description:
 # 不定动词
 
 
-## 不定动词当名词
+- 不定动词当名词
 
   `To take a trip around the world`
 
 
-### 名词不定式作主语
+- 名词不定式作主语
 
   `To marry her is my goal`
 
