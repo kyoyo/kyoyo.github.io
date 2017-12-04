@@ -16,7 +16,7 @@ description:
 
 `To take a trip around the world`
 
-1.名词不定式作主语
+1. 名词不定式作主语
 
 To marry her is my goal
 
@@ -25,7 +25,7 @@ plan purpse attempt goal aim ambition dream ideal wish hope
 也可换成  It is my goal to marry her
 
   
-2.名词不定式作及物动词受词
+2. 名词不定式作及物动词受词
 
 I want to see him
 
