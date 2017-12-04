@@ -78,8 +78,23 @@ description:
     `My hat was nowhere to be found` = `My hat could not be found anywhere`
 
 ## 不定动词当副词用
-
-`I came to see her`
+- 修饰动词
+  `He came to see me`
+  
+  `He has agreed to do it`
+  
+  `He sang a song to please her`
+  
+  `He tends to lie`
+  
+  `You will soon get to know him`
+  
+- 修饰形容词
+  `He is able to handle the problem`
+  
+  `He is apt to lie`
+  
+  
 
 
 
