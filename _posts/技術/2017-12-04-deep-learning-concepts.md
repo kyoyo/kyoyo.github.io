@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  深度学习数据集
+title:  深度学习术语集
 category: 技术
 tags: Deep Learning
 keywords:
