@@ -51,23 +51,30 @@ description:
   `There are many sights to see here` = `There are many sights which we can see here `
   
   `I have no one to talk to` = `I have no one whom I can talk to`
+  
 - be动词之后可视为名词不定式或形容词不定式
+
   `His plan is to build a house here`
   
   `He is to build a house here`
 
 - be动词之后形容词不定式有下列意义
   - 表未来
+  
     `He is to come tomorrow` = `He is going to come tomorrow`
     
   - 表义务
+  
     `You are to do it` = `You should do it`
+    
     `What am I to do?` = `What should I do?` 我该怎么办？
  
   - 表当然(=should)
+  
     `Such a lazy man is to be fired` = `Such a lazy man should be fired`
 
   - 表可能(=can)
+  
     `My hat was nowhere to be found` = `My hat could not be found anywhere`
 
 ## 不定动词当副词用
