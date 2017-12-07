@@ -37,6 +37,7 @@ $ git commit --amend               #修改最后一次改动
 git checkout -- filename  #废弃工作区的修改
 git log -p master.. origin/master #比较本地的仓库和远程参考的区别
 git merge origin/master #把远程下载下来的代码合并到本地仓库
+git clean -f 将改修的文件清楚掉
 
 从远程获取最新版本到本地
 git fetch origin master:temp
