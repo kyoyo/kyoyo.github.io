@@ -52,6 +52,10 @@ cat /etc/shells
 
 #查看默认shell
 echo $SHELL
+
+#diff --exclude 不包括的路径设定   -r 遍历子目录 -q 只显示不同的文件
+diff  --exclude='.tmp1' --exclude='.tmp2' -r -q  folder1 folder2
+
 ```
 
 
