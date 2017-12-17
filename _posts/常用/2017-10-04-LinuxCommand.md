@@ -88,3 +88,14 @@ sqlite3 testDB.db
 .read file.sql
 
 ```
+
+## ubuntu 设置
+
+- root  账户
+其实root账户是存在的，只是需要我们给它设置一个密码，然后使用的时候用root用户名登陆，然后输入对应的密码就就以root用户登录了，所以开启root账户，实际上就是给root用户设置一个密码的过程，下面我们就来给root设置密码，另外还需要注意的是，只能使安全ubuntu系统的时候创建的用户账号才能启用root账号，
+
+使用下面的命令来给root账号设置密码：
+
+sudo passwd root
+
+- 
