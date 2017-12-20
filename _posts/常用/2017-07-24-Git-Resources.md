@@ -93,6 +93,7 @@ $ git checkout -- <file>     #撤销本地修改 --之后需要加空格  只能
 
 ```
 $ git branch                   #显示所有本地分支
+$ git branch  -a               #显示所有包含远程的分支
 $ git checkout <branch/tag>    #切换到指定分支和标签
 $ git branch <new-branch>      #创建新分支
 $ git branch -d <branch>       #删除本地分支
