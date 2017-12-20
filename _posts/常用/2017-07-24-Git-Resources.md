@@ -62,6 +62,16 @@ $ git diff [first-branch]...[second-branch]
 $ git diff --shortstat "@{0 day ago}"
 ```
 
+### 更新本地代码
+```
+#个别代码更新
+$ git fetch
+$ git checkout origin/master -- path/to/file
+
+
+```
+
+
 ### git diff 详细
 ```
 git diff --stat 63bb695..cfb604d #比较两个版本  stat 内容统计
