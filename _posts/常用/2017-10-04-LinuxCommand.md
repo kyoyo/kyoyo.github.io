@@ -57,7 +57,28 @@ echo $SHELL
 diff  --exclude='.tmp1' --exclude='.tmp2' -r -q  folder1 folder2
 
 ```
+## umask
+用来设定linux新规做成文件的权限赋予规则
 
+```
+#umask确认
+$ umask
+0002
+
+#umask 权限确认
+$ umask -S
+u=rwx,g=rwx,o=rx
+
+#umask 设定
+$ umask 0022 
+
+#umask计算方法
+文件 666，文件夹 777 减去 想获得的权限就可以得到mask值 
+例:
+777-755=022
+#指定权限来设定umask
+umask u=rwx,g=rwx,o=rx
+```
 
 
 
