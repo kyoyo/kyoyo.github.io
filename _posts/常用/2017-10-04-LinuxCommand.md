@@ -7,6 +7,8 @@ keywords:
 description: 
 ---
 
+[好用的linux command 查询](http://man.linuxde.net/)
+
 ## Linux 常用命令
 ```
 #环境变量表示
