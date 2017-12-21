@@ -68,7 +68,9 @@ $ git diff --shortstat "@{0 day ago}"
 $ git fetch
 $ git checkout origin/master -- path/to/file
 
-
+### 更新branch
+$ git checkout b001
+$ git merge master
 ```
 
 
