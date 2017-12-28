@@ -80,6 +80,9 @@ $ umask 0022
 777-755=022
 #指定权限来设定umask
 umask u=rwx,g=rwx,o=rx
+
+#查看某个用户的进程
+ps -u apple | grep flask
 ```
 
 
