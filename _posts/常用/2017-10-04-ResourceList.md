@@ -194,3 +194,8 @@ http://robbiefeng.iteye.com/blog/2169967
 - repo:mozilla/shumway extension:as
 
   搜索mozilla的shumway以as为扩展的代码
+
+## Android 开发
+
+现在很多App里都内置了Web网页（Hyprid App），这是Android里一个叫WebView的组件实现的
+https://www.jianshu.com/p/3c94ae673e2a
