@@ -186,4 +186,7 @@ sqlite3 testDB.db
 
 sudo passwd root
 
-- 
+## SHELL
+
+http://wiki.jikexueyuan.com/project/linux-command/
+
