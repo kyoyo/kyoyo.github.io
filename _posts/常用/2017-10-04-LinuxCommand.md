@@ -27,7 +27,7 @@ printenv
 find ./ -name 'strinfo'
 egrep 'strinfo' filename.log
 
-[最佳find命令解释](http://man.linuxde.net/find)
+(最佳find命令解释)[http://man.linuxde.net/find]
 
 #检索指定文件含有指定字符串的行
 grep -n "hello" test3
